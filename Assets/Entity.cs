@@ -1,11 +1,10 @@
-using System.Runtime.Intrinsics.X86;
 using UnityEngine;
 
-public interface Entity : MonoBehaviour
+public abstract class Entity : MonoBehaviour
 {
-    public float health;
-    public float armor;
-    public float combatPower;
+    protected float health;
+    protected float armor;
+    protected float combatPower;
 
     public void TakeDamage(float damage)
     {
@@ -17,7 +16,6 @@ public interface Entity : MonoBehaviour
         {
             Die();
         }
-        
     }
     protected void Die()
     {
