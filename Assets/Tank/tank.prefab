@@ -473,8 +473,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef5b76a0dbf6c4b95a13e89cf7ce2aa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  cannonMarker: {fileID: 4221184126604391581}
+  machineGunMarker: {fileID: 1013296332113376372}
+  Turret: {fileID: 8902790062578474539}
+  Cannon: {fileID: 6190111773499592781}
   cannonAmmo: {fileID: 0}
+  cannonAmmoAmount: 100
+  cannonAmmoAmountMax: 100
   machineGunAmmo: {fileID: 0}
+  machineGunAmmoAmount: 1000
+  machineGunAmmoAmountMax: 1000
 --- !u!1 &8902790062578474539
 GameObject:
   m_ObjectHideFlags: 0
