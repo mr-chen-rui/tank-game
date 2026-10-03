@@ -9,7 +9,6 @@ public class Bullet : MonoBehaviour
     public float speed;
     public float damage;
     public bool pierce;
-    // Update is called once per frame
 
     void Start()
     {
