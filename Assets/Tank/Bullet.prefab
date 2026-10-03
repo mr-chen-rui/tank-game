@@ -237,15 +237,15 @@ Light:
   m_GameObject: {fileID: 2491167823519459070}
   m_Enabled: 1
   serializedVersion: 13
-  m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Type: 0
+  m_Color: {r: 1, g: 0.91838396, b: 0, a: 1}
+  m_Intensity: 10
   m_Range: 2.3609369
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -337,3 +337,4 @@ MonoBehaviour:
   direction: {x: 0, y: 0, z: 0}
   speed: 0
   damage: 0
+  pierce: 0
